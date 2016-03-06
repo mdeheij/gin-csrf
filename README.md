@@ -2,7 +2,7 @@
 
 CSRF protection middleware for [Gin]. This middleware has to be used with [gin/contrib/sessions](https://github.com/gin-gonic/contrib/tree/master/sessions).
 
-Credits to [tommy351](https://github.com/tommy351/gin-csrf), and [utrack](https://github.com/utrack/gin-csrf) making it work with gin-gonic/contrib/sessions.
+Credits to [tommy351](https://github.com/tommy351/gin-csrf) and [utrack](https://github.com/utrack/gin-csrf) making it work with gin-gonic/contrib/sessions.
 
 ## Installation
 
