@@ -2,7 +2,7 @@
 
 CSRF protection middleware for [Gin]. This middleware has to be used with [gin/contrib/sessions](https://github.com/gin-gonic/contrib/tree/master/sessions).
 
-Original credit to [tommy351](https://github.com/tommy351/gin-csrf), this fork makes it work with gin-gonic contrib sessions.
+Credits to [tommy351](https://github.com/tommy351/gin-csrf), and [utrack](https://github.com/utrack/gin-csrf) making it work with gin-gonic/contrib/sessions.
 
 ## Installation
 
@@ -33,11 +33,11 @@ func main(){
         },
     }))
     
-    r.GET("/protected", func(c *gin.Context){
+    r.GET("/getCSRF", func(c *gin.Context){
         c.String(200, csrf.GetToken(c))
     })
     
-    r.POST("/protected", func(c *gin.Context){
+    r.GET("/protected", func(c *gin.Context){
         c.String(200, "CSRF token is valid")
     })
 }
