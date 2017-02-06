@@ -7,7 +7,7 @@ Credits to [tommy351](https://github.com/tommy351/gin-csrf) and [utrack](https:/
 ## Installation
 
 ``` bash
-$ go get github.com/utrack/gin-csrf
+$ go get github.com/mdeheij/gin-csrf
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ import (
     
     "github.com/gin-gonic/gin"
     "github.com/gin-gonic/contrib/sessions"
-    "github.com/utrack/gin-csrf"
+    "github.com/mdeheij/gin-csrf"
 )
 
 func main(){
